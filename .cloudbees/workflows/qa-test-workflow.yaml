@@ -25,6 +25,7 @@ jobs:
           enable-local-scan: true
           enable-agent-scan: false
           project-name: qa-test-cmd
+          build-options: make --ignore-errors -j14
       - id: print-outputs-from-klocwork-step
         name: print outputs from upstream klocwork step
         uses: docker://alpine:latest

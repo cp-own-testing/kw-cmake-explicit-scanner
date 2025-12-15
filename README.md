@@ -1,1 +1,1 @@
-# kw-cmake-explicit-scanner1
+# kw-cmake-explicit-scanner
